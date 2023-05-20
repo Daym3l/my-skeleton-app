@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getCardItems, addCardItem, removeCardItem, cartItems } from '../../store/cart';
+	import { getCardItems, addCardItem, removeCardItem, cartItems } from '../../state/cart';
 	export let product: Product = { id: '', name: '', price: 0 };
 	const { name, id, price } = product;
 
